@@ -1,0 +1,23 @@
+{
+    "name": "test-node",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "kr",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "nodemon": "^3.1.2",
+        "process": "^0.11.10",
+        "socket.io": "^4.7.5"
+    },
+    "engines": {
+        "npm": ">=9.0.0",
+        "node": ">=18.0.0"
+    }
+}
